@@ -1,0 +1,36 @@
+body {
+  font-size: 18px;
+  padding: 20px;
+  font-family: Times New Roman;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: Times New Roman;
+}
+.container {
+  width: 40%;
+  min-width: 450px;
+  border: 1px solid burlywood;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 50px 30px;
+}
+.container * {
+  font-family: "Times New Roman", Times, serif;
+}
+.input-wrapper {
+  background-color: cadetblue;
+  padding: 30px 25px;
+  border-radius: 8px;
+}
+input button {
+  height: 50px;
+  border-radius: 5px;
+}
+button {
+  width: 30%;
+  float: left;
+}
